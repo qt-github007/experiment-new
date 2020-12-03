@@ -8,10 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController()
 @RequestMapping("/user")
 public class UserController {
-
     @GetMapping
     @ResponseBody
     public String helleLxqtt() {
-        return "hello my brother";
+        return "大吏生日快乐";
     }
 }
